@@ -1,25 +1,4 @@
-/*
 
-Consumer Key (API Key)  BWPihgPPj7LtcygQcoUTXvHtl
-Consumer Secret (API Secret)  Oono24RQT0HaK2r3ReaDY3bSm5bZAkKNKilZpnkOLlFfqUf3Sm
-Access Level  Read and write (modify app permissions)
-Owner  BCNPlanesDDB
-Owner ID  807209249201913860
-
-Access Token  807209249201913860-QCdJPwlC6IC8lfCy1hAD2FUTgSBwI7U
-Access Token Secret  4yFT7nhl9KH5gWYcVjobNbYtRKRoZ1caTyNrtOt77pg9l
-Access Level  Read and write
-Owner  BCNPlanesDDB
-Owner ID  807209249201913860
-
-
-Datos acceso flight stats:
-
-ddbdigitalbarcelona@gmail.com
-Pw: digitalytash2123!
-
-
-*/
 
 
 import processing.serial.*;
@@ -95,10 +74,10 @@ void setup() {
   ConfigurationBuilder cbs = new ConfigurationBuilder();
 
   //permisos para hacer el tweet
-  cbs.setOAuthConsumerKey("BWPihgPPj7LtcygQcoUTXvHtl");
-  cbs.setOAuthConsumerSecret("Oono24RQT0HaK2r3ReaDY3bSm5bZAkKNKilZpnkOLlFfqUf3Sm");
-  cbs.setOAuthAccessToken("807209249201913860-QCdJPwlC6IC8lfCy1hAD2FUTgSBwI7U");
-  cbs.setOAuthAccessTokenSecret("4yFT7nhl9KH5gWYcVjobNbYtRKRoZ1caTyNrtOt77pg9l");
+  cbs.setOAuthConsumerKey("xxx");
+  cbs.setOAuthConsumerSecret("xxx");
+  cbs.setOAuthAccessToken("xx-xxx");
+  cbs.setOAuthAccessTokenSecret("xxxx");
 
   TwitterFactory tf = new TwitterFactory(cbs.build());
   twitter = tf.getInstance();
